@@ -10,6 +10,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(title: const Text("P L A Y L I S T")),
+      drawer: Drawer(),
+    );
   }
 }
